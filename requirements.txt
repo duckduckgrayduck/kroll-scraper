@@ -1,0 +1,4 @@
+portpicker==1.6.0
+python_documentcloud==4.0.0
+Requests==2.31.0
+selenium==4.17.2
