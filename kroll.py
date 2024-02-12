@@ -132,12 +132,12 @@ def main():
 
     # You will have to change this line for the location of your chromedriver install
     chromedriver_path = "/usr/bin/chromedriver"
-
+    
     if os.path.exists("unique.txt"):
         current_datetime = datetime.now().strftime("%Y%m%d%H%M%S")
         new_file_path = f"unique_{current_datetime}.txt"
         os.rename("unique.txt", new_file_path)
-        print(f" unique.txt renamed to {new_file_path} successfully.")
+        print(f" unique.txt renamed to {new_file_path} successfully.") 
     parser = argparse.ArgumentParser(description="Script description here.")
     parser.add_argument(
         "--download-path", required=True, help="Specify the download path."
